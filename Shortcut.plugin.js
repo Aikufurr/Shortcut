@@ -1,10 +1,10 @@
-//META{"name":"Shortcut"}*//
+//META{"name":"Shortcut","website":"https://github.com/Aikufurr/Shortcut","source":"https://github.com/Aikufurr/Shortcut/blob/master/Shortcut.plugin.js"}*//
 
 
 class Shortcut {
     getName() { return "Shortcut"; }
-    getDescription() { return "None"; }
-    getVersion() { return "0.0.1"; }
+    getDescription() { return "Ever wanted the ability to have shortcuts in Discord? Well now you can!  -  If the buttons don't work in settings, restart the plugin."; }
+    getVersion() { return "0.1.0"; }
     getAuthor() { return "Aikufurr"; }
 
     constructor() {
@@ -98,7 +98,7 @@ class Shortcut {
 
         try {
             PluginUtilities.checkForUpdate(this.getName(), this.getVersion(),
-                "https://cdn.jsdelivr.net/gh/Aikufurr/WordEnd/WordEnd.plugin.js");
+                "https://cdn.jsdelivr.net/gh/Aikufurr/Shortcut/Shortcut.plugin.js");
         } catch (err) {
             this.error("Couldn't update");
         }
