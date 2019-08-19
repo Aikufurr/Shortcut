@@ -4,7 +4,7 @@
 class Shortcut {
     getName() { return "Shortcut"; }
     getDescription() { return "Ever wanted the ability to have shortcuts in Discord? Well now you can!  -  If the buttons don't work in settings, restart the plugin."; }
-    getVersion() { return "0.1.0"; }
+    getVersion() { return "0.1.1"; }
     getAuthor() { return "Aikufurr"; }
 
     constructor() {
@@ -281,7 +281,7 @@ class Shortcut {
         }
         </style>
         <div style="padding: 1px 1em 1em 1em; font-size: large;"><h1 style="text-align: left;"><strong>Shortcuts</strong></h1></div>
-        <table id="ShortcutTable" style="padding: 2px 1em 0 1em;border-collapse:collapse;">` + list + `</table>
+        <table id="ShortcutTable" style="padding: 2px 1em 0 1em;border-collapse:collapse;"><tr><th>Shortcut</th><th>Replacement</th></tr>` + list + `</table>
         <br>
         <div type="text" class="ac-replacer-field">
         <button id="ShortcutAdd" style="border: none; border-radius: 5px; height: 40px; padding: 10px; width: 100%;width:45%;margin:2.5%;border:2px solid white;" class="button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeMedium-1AC_Sl grow-q77ONN">
